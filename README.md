@@ -17,7 +17,7 @@ The SQL queries used to inspect and clean the data for this analysis can be foun
 
 Targed SQL queries regarding various business questions can be found here [link].
 
-An interactive Power BI dashboard used to report and explore FNOL Claims data can be found here [link].
+An interactive Power BI dashboard used to report and explore FNOL Claims data can be found here [(https://github.com/priscy03/Early-Prediction-of-Motor-Insurance-Claim-Costs-Using-FNOL-Data/blob/main/FNOL%20Insurance%20Claims.pdf)]
 
 # Data structure & initial checks
 
