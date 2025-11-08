@@ -5,7 +5,7 @@ Guardian Mutual Assurance (GMA), founded in 1998, is a mid-sized UK insurance pr
 The company holds extensive claims data, yet early-stage prediction of claim costs at First Notification of Loss (FNOL) remains a challenge. Regulatory requirements demand immediate reserve allocation, but limited initial data often leads to inaccurate estimates impacting profitability, solvency, and customer satisfaction.
 This project applies structured exploratory analysis and business-focused insights to improve reserve accuracy and operational efficiency, while enhancing stakeholder confidence in GMA’s claims data.
 
-Insights and recommendations are provided on the following key areas:
+<b> Insights and recommendations are provided on the following key areas <b> :
 
 •	Claims Pattern Analysis: Identification of trends and correlations across accident severity, third-party involvement, vehicle types, and policyholder attributes.
 
@@ -32,6 +32,7 @@ Guardian Mutual Assurance database structure as seen below consists of three tab
 <img width="907" height="277" alt="image" src="https://github.com/user-attachments/assets/09425668-1b3a-4129-b184-c70180237038" />
 
 # Executive Summary
+
 Overview of Findings
 
 • This insurance claims analysis uncovers key patterns across operational performance, policyholder risk profiles, and fraud/litigation dynamics.
@@ -102,42 +103,67 @@ Insights Deep Dive
 # Recommendations:
 Based on the insights and findings above, we would recommend the Guardian Mutual Assurance (GMA) to consider the following:
 
-## Claims Pattern Analysis;
+# Claims Pattern Analysis;
+
 Recommendation:
+
 • Develop region- and demographic-specific risk profiles to inform underwriting and pricing strategies.
+
 • Use vehicle type, driving experience, and credit score as early indicators in FNOL triage to guide reserve estimation and claims prioritization.
 
-Reserve Allocation Benchmarking;
+# Reserve Allocation Benchmarking;
+
 Recommendation:
 • Benchmark reserve accuracy by claim type and complexity level to identify underperforming segments.
+
 • Introduce reserve calibration guidelines for high-risk categories (e.g., fire, third-party involvement) based on historical payout patterns.
 
-Operational Efficiency;
+# Operational Efficiency;
+
 Recommendation:
 • Implement fast-track workflows for low-severity and third-party claims to reduce average settlement time.
+
 • Flag potential fraud-litigation overlaps early to allocate appropriate resources and reduce downstream delays.
+
 • Consider a dedicated review process for fire claims to address documentation and valuation challenges.
 
-Enhanced Recommendation;
+# Enhanced Recommendation;
+
 Next step; Integrate Machine Learning for predictive claim costing and perhaps potential fraud detection in the long run.
 
+# Assumptions and Caveats:
 
+Assumptions;
 
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
-
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
-
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
-
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
-
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
-
-Assumptions and Caveats:
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+•	Claim Closure Equals Settlement: Closed claims were assumed to be fully settled, with no pending adjustments or disputes.
+  
+•	Credit Score as Proxy for Asset Value: Higher credit scores were interpreted as indicative of higher-value vehicles or assets.
 
-Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+•	Vehicle Type Reflects Claim Cost: It was assumed that vehicle type (e.g., coupe vs. sedan) correlates with repair or replacement cost.
 
-Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+•	Fraud and Litigation Overlap: The observed proximity in cost and regional concentration was treated as indicative of overlap, though causality was not confirmed.
+
+Caveats;
+
+These are limitations or considerations that stakeholders should keep in mind when interpreting your findings:
+
+• Correlation ≠ Causation: While patterns were identified (e.g., younger drivers with higher claims), these do not imply direct causality.
+
+• Reserve Accuracy Benchmarking: The 66% reserve accuracy figure is based on historical payout alignment and may not reflect current actuarial models.
+
+• Regional Risk Profiles: High claim frequency in certain regions may be influenced by population density or policyholder demographics, not necessarily higher risk.
+
+• Fraud Flagging Sensitivity: Fraud detection rates depend on internal flagging criteria, which may vary over time or across teams.
+
+• Litigation Cost Attribution: Costs associated with litigation may include legal fees, delays, and settlements, but were not broken down in this analysis.
+
+•	Historical Scope Only: Analysis relied on past claims data; real-time integration was beyond scope.
+
+
+
+
+
+
+
