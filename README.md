@@ -24,7 +24,7 @@ Guardian Mutual Assurance database structure as seen below consists of three tab
 
 •	Table 2:policyholders
 
-•	Table 3:third_partie
+•	Table 3:third_parties
 
 <img width="907" height="277" alt="image" src="https://github.com/user-attachments/assets/09425668-1b3a-4129-b184-c70180237038" />
 
