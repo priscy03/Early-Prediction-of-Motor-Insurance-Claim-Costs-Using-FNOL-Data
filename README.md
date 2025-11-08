@@ -2,10 +2,11 @@
 
 ## Project Background
 Guardian Mutual Assurance (GMA), founded in 1998, is a mid-sized UK insurance provider offering life, auto, and home coverage. Known for affordable premiums and fast claims resolution, GMA has built a strong reputation through digital-first customer engagement.
+
 The company holds extensive claims data, yet early-stage prediction of claim costs at First Notification of Loss (FNOL) remains a challenge. Regulatory requirements demand immediate reserve allocation, but limited initial data often leads to inaccurate estimates impacting profitability, solvency, and customer satisfaction.
 This project applies structured exploratory analysis and business-focused insights to improve reserve accuracy and operational efficiency, while enhancing stakeholder confidence in GMA’s claims data.
 
-<b> Insights and recommendations are provided on the following key areas <b> :
+Insights and recommendations are provided on the following key areas:
 
 •	Claims Pattern Analysis: Identification of trends and correlations across accident severity, third-party involvement, vehicle types, and policyholder attributes.
 
@@ -13,11 +14,7 @@ This project applies structured exploratory analysis and business-focused insigh
 
 •	Operational Efficiency: Recommendations to streamline reserve estimation workflows and reduce delays in claims processing.
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
-
-Targed SQL queries regarding various business questions can be found here [link].
-
-An interactive Power BI dashboard used to report and explore FNOL Claims data can be found here [(https://github.com/priscy03/Early-Prediction-of-Motor-Insurance-Claim-Costs-Using-FNOL-Data/blob/main/FNOL%20Insurance%20Claims.pdf)]
+Power BI dashboard used to report and explore FNOL Claims data can be found here [(https://github.com/priscy03/Early-Prediction-of-Motor-Insurance-Claim-Costs-Using-FNOL-Data/blob/main/FNOL%20Insurance%20Claims.pdf)]
 
 # Data structure & initial checks
 
@@ -43,10 +40,7 @@ Overview of Findings
 
 The following sections will expand on reserve accuracy, settlement durations, reserve gaps, customer behavior & vehicle risk patterns possible interactions interaction of fraud and litigation.
 
-
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
-
-Insights Deep Dive
+# Insights Deep Dive
 
 # Operations:
 
@@ -80,7 +74,9 @@ Insights Deep Dive
 
 •	Third party involved in claims in about 25%, which although not too high is significant enough to impact or influence final claims.
 
+
 <img width="550" height="189" alt="image" src="https://github.com/user-attachments/assets/4b7ac3bf-9ea7-47c7-82c0-1990caa8f42f" />
+
 
 •	Top 3 regions in frequency of claims are Glasgow, Liverpool and Bristol, with employed and retired policy holders dominating the claims and unemployed holders with the least ( employed and retired would tend to use vehicles more than unemployed )
 
@@ -114,6 +110,7 @@ Recommendation:
 # Reserve Allocation Benchmarking;
 
 Recommendation:
+
 • Benchmark reserve accuracy by claim type and complexity level to identify underperforming segments.
 
 • Introduce reserve calibration guidelines for high-risk categories (e.g., fire, third-party involvement) based on historical payout patterns.
@@ -121,6 +118,7 @@ Recommendation:
 # Operational Efficiency;
 
 Recommendation:
+
 • Implement fast-track workflows for low-severity and third-party claims to reduce average settlement time.
 
 • Flag potential fraud-litigation overlaps early to allocate appropriate resources and reduce downstream delays.
