@@ -62,7 +62,7 @@ The following sections will expand on reserve accuracy, settlement durations, re
 
 •	The frequency of collision claims is the most over the years, however claim type associated to fire has the largest average absolute reserve gap and would likely cause more reserve accuracy inconsistencies;
 
-•	Insurance Claims associated to fire is difficult due to the complexity of fire and secondary damages (smoke, water (fire fighters), subject to valuation methods, and disputes over documentation and policy terms. 
+•	Insurance Claims associated to fire is difficult to estimate due to the complexity of fire and secondary damages (smoke, water (fire fighters), subject to valuation methods, and disputes over documentation and policy terms. 
 
 # Claim Patterns:
 
