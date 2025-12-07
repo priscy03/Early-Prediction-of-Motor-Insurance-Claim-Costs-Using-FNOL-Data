@@ -6,7 +6,18 @@ Guardian Mutual Assurance (GMA), founded in 1998, is a mid-sized UK insurance pr
 The company holds extensive claims data, yet early-stage prediction of claim costs at First Notification of Loss (FNOL) remains a challenge. Regulatory requirements demand immediate reserve allocation, but limited initial data often leads to inaccurate estimates impacting profitability, solvency, and customer satisfaction.
 This project applies structured exploratory analysis and business-focused insights to improve reserve accuracy and operational efficiency, while enhancing stakeholder confidence in GMA’s claims data.
 
+Metric Outcome ;
+
+• Data prep: Standardized 100% of timestamps and normalized 3 table of fields for FNOL records.
+
+•	Benchmarking: Calculated reserve accuracy baseline at 66% before predictive costing integration.
+
+•	Visualization: Built dashboards tracking claim closure rates across 10 regions, reducing manual reporting time by 2 days.
+
+
+
 Insights and recommendations are provided on the following key areas:
+
 
 •	Claims Pattern Analysis: Identification of trends and correlations across accident severity, third-party involvement, vehicle types, and policyholder attributes.
 
@@ -46,7 +57,7 @@ The following sections will expand on reserve accuracy, settlement durations, re
 
 <img width="874" height="205" alt="image" src="https://github.com/user-attachments/assets/aae2055f-0d04-4cff-a7b2-3ce78a1307ac" />
 
-•	Claim Volume: 800 total claims; 95% settled, 5% still open emphasis on strong closure rate.
+•	Claim Volume: 8,000 total claims; 95% settled, 5% still open emphasis on strong closure rate.
 
 •	However Reserve Accuracy: 66% average; moderate alignment between estimated and actual payouts; GMA will not always have enough funds available to meet future liabilities due to over-commitment of capital.
 
