@@ -6,7 +6,7 @@ Guardian Mutual Assurance (GMA), founded in 1998, is a mid-sized UK insurance pr
 The company holds extensive claims data, yet early-stage prediction of claim costs at First Notification of Loss (FNOL) remains a challenge. Regulatory requirements demand immediate reserve allocation, but limited initial data often leads to inaccurate estimates impacting profitability, solvency, and customer satisfaction.
 This project applies structured exploratory analysis and business-focused insights to improve reserve accuracy and operational efficiency, while enhancing stakeholder confidence in GMA’s claims data.
 
-Metric Outcome ;
+### Metric Outcome ;
 
 • Data prep: Standardized 100% of timestamps and normalized 3 table of fields for FNOL records.
 
@@ -16,7 +16,7 @@ Metric Outcome ;
 
 
 
-Insights and recommendations are provided on the following key areas:
+### Insights and recommendations are provided on the following key areas:
 
 
 •	Claims Pattern Analysis: Identification of trends and correlations across accident severity, third-party involvement, vehicle types, and policyholder attributes.
